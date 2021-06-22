@@ -1,140 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 550;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
 }
-nav{
-    width: 100%;
-    margin: 0;
-   
-
+nav {
+  width: 100%;
+  margin: 0;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 550;
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 550;
 }
-.navbar ul{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    
+.navbar ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
 }
-.navbar h2{
+.navbar h2 {
   font-size: 1.9rem;
   margin-top: 0.7rem;
   margin-left: 1.8rem;
 }
-.navbar ul li{
-    padding: 1.5rem;
-    padding-left: 0.4rem;
-    list-style: none;
+.navbar ul li {
+  padding: 1.5rem;
+  padding-left: 0.4rem;
+  list-style: none;
 }
-.navbar i{
-    margin-top: 1.2rem;
-    margin-right: 2rem;
-    font-size: 0.9rem;
+.navbar i {
+  margin-top: 1.2rem;
+  margin-right: 2rem;
+  font-size: 0.9rem;
 }
-.navbar .fa-amazon{
-    margin-top: 1.3rem;
+.navbar .fa-amazon {
+  margin-top: 1.3rem;
 }
-.imag{
-    background: url('../image/img13.jpg') no-repeat center;
-    background-size: cover;
-    height: 40rem;
-    width: 100%;   
+.imag {
+  background: url('../image/img13.jpg') no-repeat center;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
 }
-.head{
-    position: absolute;
-    top: 30%;
-    right: 10rem;
-    color: #fff;
+.head {
+  position: absolute;
+  top: 30%;
+  right: 10rem;
+  color: #fff;
 }
-.bttn{
-    position: absolute;
-    top: 42%;
-    right: 38%;
-    background-color: #ddd;
-    color: #000;
-    padding: 0.4rem 3rem;
-    border: none;
-    font-size: 1.3rem;
+.bttn {
+  position: absolute;
+  top: 42%;
+  right: 38%;
+  background-color: #ddd;
+  color: #000;
+  padding: 0.4rem 3rem;
+  border: none;
+  font-size: 1.3rem;
 }
-.middelSection{
-    height: 40rem;
-    width: 100%;
-    position: relative;
+.middelSection {
+  height: 40rem;
+  width: 100%;
+  position: relative;
 }
-.middelSection h1{
-    color: #ddd;
-    font-size: 6rem;
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-weight: 500;
-    
-
+.middelSection h1 {
+  color: #ddd;
+  font-size: 6rem;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
 }
-.middelSection p{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    font-size: 2rem;
-    font-weight: 500;
+.middelSection p {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 2rem;
+  font-weight: 500;
 }
-.middelSection .btn{
-    
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-weight: 600;
+.middelSection .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
 }
 .middelSection .btn #btn1 {
-    background-color: #ddd;
-    padding: 0.6rem 3.5rem;
-    border: none;
+  background-color: #ddd;
+  padding: 0.6rem 3.5rem;
+  border: none;
 }
 .middelSection .btn #btn2 {
-    background-color: #171717;
-    padding: 0.6rem 2rem;
-    border: none;
-    color: #fff;
-    font-weight: 600;
+  background-color: #171717;
+  padding: 0.6rem 2rem;
+  border: none;
+  color: #fff;
+  font-weight: 600;
 }
-.main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.5rem;
-    height: 100vh;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  height: 100vh;
+  position: absolute;
+  top: 30%;
+  left: 10%;
 }
-.main button{
-    padding: 0.4rem 3rem;
-    background-color: #ddd;
-    border: none;
-
+.main button {
+  padding: 0.4rem 3rem;
+  background-color: #ddd;
+  border: none;
 }
-.gallery__img{
-    width: 65%;
-    height: 70%;
-    object-fit: cover;
+.gallery__img {
+  width: 65%;
+  height: 70%;
+  object-fit: cover;
 }
-footer{
-    position: absolute;
-    top: 220%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-weight: 600;
-    margin-bottom: 0.4rem;
+footer {
+  position: absolute;
+  top: 215%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
 }

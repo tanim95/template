@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+html{
+    background-image: linear-gradient(to right,#fff 65%,#ddd 35%);
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 550;
+
+}
+.navbar ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.navbar ul li{
+    padding: 1.5rem;
+    padding-left: 0.4rem;
+    list-style: none;
+}
+.navbar i{
+    margin-top: 1.2rem;
+    margin-right: 4rem;
+    font-size: 0.9rem;
+}
+.navbar .fa-amazon{
+    margin-top: 1.3rem;
+}
+.main img{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+.middelSec{
+   position: relative;
+   
+}
+.middelSec .div1{
+    position: absolute;
+    top: 10rem;
+    left: 15%;
+
+}
+.middelSec .div1 h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.middelSec .div1 p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+.middelSec .div1 button{
+    margin-top: 2rem;
+    padding: 0.9rem 6rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+    border : none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.middelSec .div2{
+    position: absolute;
+    top: 7rem;
+    left: 52%;
+}
+.last{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.last .a{
+    margin-left: 5rem;
+}
+.last .a p{
+   display: inline;
+   margin-left: 2rem;
+}
+.last .b{
+    margin-right: 5rem;
+}
+.last .b p{
+    display: inline;
+    margin-left: 2rem;
+ }
